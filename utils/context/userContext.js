@@ -14,7 +14,7 @@ export const UserDataProvider = ({ children }) => {
         phoneNumber: '',
         country: '',
         plan: 'planOne',
-        planPrice: '100',
+        planPrice: '200',
         paymentMethod: '',
         voucher: '',
     });

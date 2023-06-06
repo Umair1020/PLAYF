@@ -107,7 +107,7 @@ const LandingPage = () => {
                 <div className='landingcard__container'>
                     <div className='landingcard'>
                         <h3 class="card__header">Monthly Subscription</h3>
-                        <p class="card__info">Amount : <b className='ammountLanding'>Rs 100</b></p>
+                        <p class="card__info">Amount : <b className='ammountLanding'>Rs 200</b></p>
                         <p class="card__info">Video Quality : HD movies</p>
                     </div>
                     {/* <div className='landingcard'>

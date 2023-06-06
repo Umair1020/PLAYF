@@ -73,7 +73,7 @@ const Payments = () => {
                     <div className={styles.payment__methods}>
                         <div>
 
-                        <div className={styles.selectionWrapper}>
+                            <div className={styles.selectionWrapper}>
                                 <a>
                                     <label className={styles.name__and__logo} >
                                         <input type='radio' name='paymentMethod' value='free' onChange={handleChange} onClick={() => router.push('/signup/trial')} />
@@ -82,9 +82,9 @@ const Payments = () => {
                                             <FontAwesomeIcon
                                                 icon={faGifts}
                                                 style={{
-                                                    marginLeft:'20px',
-                                                    fontSize:'25px',
-                                                    color:'crimson'
+                                                    marginLeft: '20px',
+                                                    fontSize: '25px',
+                                                    color: 'crimson'
                                                 }}
                                             />
                                         </div>
@@ -103,21 +103,21 @@ const Payments = () => {
                                             <FontAwesomeIcon
                                                 icon={faCreditCard}
                                                 style={{
-                                                    marginLeft:'20px',
-                                                    fontSize:'25px',
-                                                    color:'#ADD8E6'
+                                                    marginLeft: '20px',
+                                                    fontSize: '25px',
+                                                    color: '#ADD8E6'
                                                 }}
                                             />
-                                             <FontAwesomeIcon
+                                            <FontAwesomeIcon
                                                 icon={faJ}
                                                 style={{
-                                                    marginLeft:'20px',
-                                                    fontSize:'25px',
-                                                    color:'crimson'
+                                                    marginLeft: '20px',
+                                                    fontSize: '25px',
+                                                    color: 'crimson'
                                                 }}
                                             />
                                         </div>
-                                     
+
                                     </label>
 
                                 </a>
@@ -133,9 +133,9 @@ const Payments = () => {
                                             <FontAwesomeIcon
                                                 icon={faTicket}
                                                 style={{
-                                                    marginLeft:'20px',
-                                                    fontSize:'25px',
-                                                    color:'#F7AE00'
+                                                    marginLeft: '20px',
+                                                    fontSize: '25px',
+                                                    color: '#F7AE00'
                                                 }}
                                             />
                                         </div>

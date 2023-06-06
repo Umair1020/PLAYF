@@ -131,7 +131,7 @@ function BeforeAfter({ src, view, view720 }) {
             setStoredTime(currentTime);
             setSelected720p(true);
             setSelected1080p(false);
-            // playerRef.current.seekTo(storedTime);
+            playerRef.current.seekTo(storedTime);
         }
     };
 
@@ -144,7 +144,7 @@ function BeforeAfter({ src, view, view720 }) {
             setCurrentVideoSource(src);
             setSelected720p(false);
             setSelected1080p(true);
-            // playerRef.current.seekTo(storedTime);
+            playerRef.current.seekTo(storedTime);
         }
     };
 

@@ -49,7 +49,6 @@ const CreditCard = ({ ACCESS_TOKEN }) => {
                                 <input hidden type='text' name='BASKET_ID' value='101' readOnly />
                                 <input hidden type='text' name='ORDER_DATE' value={date} readOnly />
                                 <input hidden type='text' name='CHECKOUT_URL' value='https://apiv1.playeon.com/api/v1/signup/payment/confirmation' readOnly />
-
                             </div>
 
                             <div className={styles.field_content}>

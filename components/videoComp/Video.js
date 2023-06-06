@@ -6,13 +6,13 @@ import Router, { useRouter } from 'next/router'
 import baseUrl from '../../utils/baseUrl'
 // import VideoPlayer from './VideoPlayer'
 import BeforeAfter from './BeforeAfter'
-const Video = ({ src, sub, user ,view,view720 }) => {
+const Video = ({ src, sub, user, view, view720 }) => {
     const router = useRouter();
     const id = user._id
-console.log(view)
-const handleContextMenu = (event) => {
-    event.preventDefault();
-};
+    console.log(view, view720)
+    const handleContextMenu = (event) => {
+        event.preventDefault();
+    };
     useEffect(() => {
         window.onpopstate = async () => {
             try {
@@ -51,7 +51,7 @@ const handleContextMenu = (event) => {
                 default
 
             />
-           
+
             <button className='set' onClick={del} onContextMenu={handleContextMenu}>
                 <div className={styles.crossicon} >
                     <div className={styles.crossline}></div>

@@ -72,7 +72,7 @@ const Plans = () => {
                                 <tbody>
                                     <tr>
                                         <td>Monthly Subscription</td>
-                                        <td className={user.plan === 'planOne' ? styles.active : ''}>Rs 100</td>
+                                        <td className={user.plan === 'planOne' ? styles.active : ''}>Rs 200</td>
                                         {/* <td className={user.plan === 'planTwo' ? styles.active : ''}>Rs300</td>
                                         <td className={user.plan === 'planThree' ? styles.active : ''}>Rs400</td> */}
                                     </tr>
